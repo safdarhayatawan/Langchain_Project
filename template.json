@@ -1,5 +1,6 @@
 {
   "_type": "prompt",
   "input_variables": ["paper", "style", "length", "prompt"],
-  "template": "Please explain the research paper '{paper}' in a {style} style. The explanation should be {length}. Here's the specific question: {prompt}"
+  "template": "Please explain the research paper '{paper}' in a {style} style. The explanation should be {length}. Here's the specific question: {prompt}",
+  "template_format": "f-string"
 }
